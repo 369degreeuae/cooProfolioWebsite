@@ -49,7 +49,7 @@ function App() {
               <div className="flex-shrink-0 lg:flex">
                 <img
                   className="h-96 w-56 rounded-full"
-                  src="src\assets\profilephoto1.jpg"
+                  src="https://res.cloudinary.com/dhpfskfem/image/upload/v1727858839/cooprtfolio/afa5uruzbmaki3spjenb.jpg"
                   alt="Profile"
                 />
               </div>
