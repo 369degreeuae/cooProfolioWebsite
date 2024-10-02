@@ -70,7 +70,7 @@ function App() {
             <div className="col-span-1 flex flex-col items-center  bg-gray-50">
               <img
                 className="h-32 rounded-lg"
-                src="src\assets\entrepreneurnew.jpg"
+                src="https://res.cloudinary.com/dhpfskfem/image/upload/v1727855082/cooprtfolio/jkmh0q5gfxyb7hqxekyz.jpg"
                 alt={`Technology Enthusiast`}
               />
             <p className="mt-2 text-center font-semibold">Entrepreneur</p>
@@ -78,7 +78,7 @@ function App() {
             <div className="col-span-1 flex flex-col items-center  bg-gray-50">
               <img
                 className="h-32 rounded-lg"
-                src="https://www.ashishdesaiadvocate.com/images/123.jpg"
+                src="https://res.cloudinary.com/dhpfskfem/image/upload/v1727855083/cooprtfolio/yftqtknbnxfgc4d5qvzj.jpg"
                 alt="Advocate"
               />
               <p className="mt-2 text-center font-semibold">Advocate</p>
@@ -88,7 +88,7 @@ function App() {
             <div className="col-span-1 flex flex-col items-center  bg-gray-50">
               <img
                 className="h-32 rounded-lg"
-                src="src\assets\technologyEnthusiast.jpg"
+                src="https://res.cloudinary.com/dhpfskfem/image/upload/v1727855082/cooprtfolio/mn4bwijl8xkzdrl92mxv.jpg"
                 alt="Entrepreneur"
               />
               <p className="mt-2 font-semibold text-center">Techonology Enthusiast</p>
@@ -97,7 +97,7 @@ function App() {
             <div className="col-span-1 flex flex-col items-center   bg-gray-50">
               <img
                 className="h-32 rounded-lg"
-                src="src\assets\fashion.jpg"
+                src="https://res.cloudinary.com/dhpfskfem/image/upload/v1727855083/cooprtfolio/h29dsawbajwexa1fal4r.jpg"
                 alt={`Fashion Innovator`}
               />
               <p className="mt-2 items-center font-semibold">Fashion Innovator</p>
