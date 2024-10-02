@@ -11,7 +11,7 @@ const Navbar = () => {
                   <span className="text-2xl font-bold text-gray-900">
                     <img
                       className="w-24 h-24"
-                      src="src\assets\Laxmi.png"
+                      src="https://res.cloudinary.com/dhpfskfem/image/upload/v1727855082/cooprtfolio/byc9o6ggj2yl5lxetm6f.png"
                       alt=""
                     />
                   </span>
