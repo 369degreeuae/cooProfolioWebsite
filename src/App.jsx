@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { User, ExternalLink } from "lucide-react";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar.jsx";
 import GetinTouch from "./components/GetinTouch";
 import Timeline from "./components/Timeline";
 import Services from "./components/Services";
