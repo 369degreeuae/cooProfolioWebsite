@@ -78,7 +78,7 @@ function App() {
             <div className="col-span-1 flex flex-col items-center  bg-gray-50">
               <img
                 className="h-32 rounded-lg"
-                src=".\src\assets\advocate.jpg"
+                src="https://www.ashishdesaiadvocate.com/images/123.jpg"
                 alt="Advocate"
               />
               <p className="mt-2 text-center font-semibold">Advocate</p>
