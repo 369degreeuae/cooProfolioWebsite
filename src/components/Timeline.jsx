@@ -39,9 +39,9 @@ const TimelineItem = ({
   </div>
 );
 
-const Timeline = () => {
+const Timeline = ({ id }) => {
   return (
-    <div className="container mx-auto py-10 px-4 sm:px-6 md:px-10">
+    <div id={id} className="container mx-auto py-10 px-4 sm:px-6 md:px-10">
       <div className="relative wrap overflow-hidden h-full">
         {/* Central vertical line */}
         <div className="border-2 absolute border-gray-200 h-full top-0 left-1/2 transform -translate-x-1/2 hidden md:block"></div>

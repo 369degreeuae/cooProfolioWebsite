@@ -1,12 +1,14 @@
 import React from 'react'
+import { FaShoppingBag } from "react-icons/fa";
 
-const Services = () => {
+
+const Services = ({id}) => {
   return (
     <div>
       <>
   {/* component */}
   <div
-    id="services"
+    id={id}
     className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-white"
   >
     <div className="container xl:max-w-6xl mx-auto px-4">
@@ -149,15 +151,15 @@ const Services = () => {
             <div className="inline-block text-gray-900 mb-4">
               {/* icon */}
               <svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="2rem"
-  height="2rem"
-  fill="currentColor"
-  className="bi bi-gavel"
-  viewBox="0 0 16 16"
->
-  <path d="M12.5 1.5a1 1 0 0 1 1 1v1.5h1a1 1 0 0 1 .707 1.707l-2.5 2.5-1.207-1.207 2.5-2.5a1 1 0 0 1 1.707-.707H15V2.5a1 1 0 0 1-1-1h-1.5zM11.5 3a1 1 0 0 1 0 2h-1a1 1 0 0 1-1-1V3h2.5zM3.5 8a1 1 0 0 0-1 1v1.5H1a1 1 0 0 0-.707 1.707l2.5 2.5 1.207-1.207-2.5-2.5a1 1 0 0 0-.707-1.707H2.5V9a1 1 0 0 0-1-1zm8 1a1 1 0 0 1 1 1v1.5h1a1 1 0 0 1 .707 1.707l-2.5 2.5-1.207-1.207 2.5-2.5a1 1 0 0 1 1.707-.707H15V9.5a1 1 0 0 1-1-1h-1.5zM7.5 14h1a1 1 0 0 0 1-1v-1h-3v1a1 1 0 0 0 1 1z"/>
-</svg>
+                xmlns="http://www.w3.org/2000/svg"
+                width="2rem"
+                height="2rem"
+                fill="currentColor"
+                className="bi bi-wallet2"
+                viewBox="0 0 16 16"
+              >
+                <path d="M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z" />
+              </svg> 
 
             </div>
             <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
@@ -184,17 +186,7 @@ and business law.
           <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
             <div className="inline-block text-gray-900 mb-4">
               {/* icon */}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="2rem"
-                height="2rem"
-                fill="currentColor"
-                className="bi bi-card-checklist"
-                viewBox="0 0 16 16"
-              >
-                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
-                <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
-              </svg>
+              <FaShoppingBag className="text-3xl" />
             </div>
             <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
             Fashion Innovation

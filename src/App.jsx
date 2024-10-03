@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { User, ExternalLink } from "lucide-react";
 import Navbar from "./components/Navbar.jsx";
-import GetinTouch from "./components/GetinTouch";
+import GetinTouch from "./components/GetinTouch.jsx";
 import Timeline from "./components/Timeline";
 import Services from "./components/Services";
 
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -35,14 +34,24 @@ function App() {
                 collaborate to bring fresh, impactful ideas to life
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
+              <a
+                  href="#timeline"
+                  className="px-3 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900"
+                >
                 <button className="px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-400 hover:bg-blue-600">
                   Learn More About Me
                 </button>
+                </a>
+                <a
+                  href="#getintouchcontact"
+                  className="px-3 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900"
+                >
                 <button className="px-6 py-3 border border-gray-300 text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50">
                   Get In Touch
                   {/* Projects{" "} */}
                   <ExternalLink className="inline-block ml-2 w-4 h-4" />
                 </button>
+                </a>
               </div>
             </div>
             <div className="mt-5 flex lg:mt-0 lg:ml-4">
@@ -103,9 +112,9 @@ function App() {
               <p className="mt-2 items-center font-semibold">Fashion Innovator</p>
             </div>
           </div>
-          <Timeline/>
-          <Services/>
-        <GetinTouch/>
+          <Timeline id="timeline" />
+          <Services id="services" />
+          <GetinTouch id="getintouchcontact" />
         </main>
       </div>
     </>

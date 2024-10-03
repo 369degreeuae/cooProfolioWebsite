@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Services from './Services';
 
 const Navbar = () => {
   return (
@@ -25,20 +26,20 @@ const Navbar = () => {
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="#timeline"
                   className="px-3 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900"
                 >
                   About Me
                 </a>
                 <a
-                  href="#"
+                  href="#services"
                   className="px-3 rounded-md text-sm font-medium text-gray-700 hover:text-gray-900"
                 >
                   Services
                 </a>
                
                 <a
-                  href="#"
+                  href="#getintouchcontact"
                   className="ml-4 px-4 py-2 rounded-md text-sm font-medium text-white bg-blue-400 hover:bg-blue-600"
                 >
                   Contact Me
