@@ -112,31 +112,31 @@ const GetinTouch = ({id}) => {
           </ul>
         </div>
       </div>
-      <form className="ml-auo space-y-4">
+      <form className="ml-auto space-y-4">
         <input
           type="text"
           placeholder="Name"
-          className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
+          className="md:w-full sm:w-3/4 rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
         />
         <input
           type="email"
           placeholder="Email"
-          className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
+          className="md:w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
         />
         <input
           type="text"
           placeholder="Subject"
-          className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
+          className="md:w-full rounded-md py-2.5 px-4 border text-sm outline-[#007bff]"
         />
         <textarea
           placeholder="Message"
           rows={6}
-          className="w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"
+          className="md:w-full rounded-md px-4 border text-sm pt-2.5 outline-[#007bff]"
           defaultValue={""}
         />
         <button
           type="button"
-          className="text-white bg-[#007bff] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
+          className="text-white bg-[#007bff] hover:bg-blue-600 font-semibold rounded-md text-sm px-4 py-2.5 sm:w-full"
         >
           Send
         </button>

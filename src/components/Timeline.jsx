@@ -10,7 +10,7 @@ const TimelineItem = ({
 }) => (
   <div
     className={`mb-8 flex justify-between items-center w-full md:w-[100%] ${
-      left ? "md:flex-row-reverse" : "md:flex-row"
+      left ? "md:flex-row-reverse " : "md:flex-row sm:flex-row-reverse"
     } flex-col-reverse`}
   >
     {/* Content box */}
@@ -32,7 +32,7 @@ const TimelineItem = ({
     </div>
 
     {/* Bullet point */}
-    <div className="z-20 w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-600 shadow-lg rounded-full absolute left-1/2 transform -translate-x-1/2 md:relative md:left-auto md:translate-x-0"></div>
+    <div className="z-20 w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-600 shadow-lg rounded-full absolute left-1/2 transform -translate-x-1/2 md:relative md:left-auto md:translate-x-0 hidden md:block"></div>
 
     {/* Empty box for spacing */}
     <div className="w-full md:w-5/12"></div>
@@ -54,7 +54,7 @@ const Timeline = ({ id }) => {
           period="(2021 – Present"
           description="At The Zaik, I founded a fashion brand that marries traditional aesthetics with
 contemporary design. As the driving force behind the brand, I oversee all aspects of its
-creative direction and business strategy.
+creative direction and business strategy
 "
           left={false}
         />

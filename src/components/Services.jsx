@@ -55,9 +55,7 @@ const Services = ({id}) => {
             style={{ strokeWidth: 2, strokeMiterlimit: 10 }}
           />
         </svg>
-        <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2">
-          Save time managing advertising &amp; Content for your business.
-        </p>
+        
       </header>
       {/* End heading */}
       {/* row */}
