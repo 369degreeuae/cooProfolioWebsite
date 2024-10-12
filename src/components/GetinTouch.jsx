@@ -26,7 +26,7 @@ const GetinTouch = ({ id }) => {
                 </p>
                 <ul className="mb-6 md:mb-0">
                   <li className="flex">
-                    <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <div className="flex h-8 w-8  mt-9 items-center justify-center rounded bg-blue-900 text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -54,7 +54,7 @@ const GetinTouch = ({ id }) => {
                     </div>
                   </li>
                   <li className="flex">
-                    <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <div className="flex h-8 w-8 mt-9 items-center justify-center rounded bg-blue-900 text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -65,7 +65,7 @@ const GetinTouch = ({ id }) => {
                         strokeWidth={2}
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        className="h-6 w-6"
+                        className="h-6 w-6 "
                       >
                         <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"></path>
                         <path d="M15 7a2 2 0 0 1 2 2" />
@@ -80,13 +80,12 @@ const GetinTouch = ({ id }) => {
                         Mobile: +91 79026 45369 |<br />{" "}
                         <p className="ml-12">+971 522824369 </p>
                       </p>
-                      <p className="text-gray-600 ">
-                        Mail: lakshmysanthoshmenon@gmail.com
+                      <p className="text-gray-600 ">lakshmysanthoshmenon@gmail.com
                       </p>
                     </div>
                   </li>
                   <li className="flex">
-                    <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
+                    <div className="flex h-8 w-8 mt-10 items-center justify-center rounded bg-blue-900 text-gray-50">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
