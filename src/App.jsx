@@ -12,9 +12,9 @@ function App() {
   return (
     <>
       <div className="max-w-fit bg-gray-50 mt-[-38px]">  
-    <Navbar/>
+    <Navbar id={"top"}/>
         <main className="max-w-screen mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <Landing/>
+          <Landing id={"landing"}/>
           <Timeline id="timeline" />
           <EducationSection/>
           <Services id="services" />
