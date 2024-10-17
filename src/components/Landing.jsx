@@ -63,7 +63,7 @@ const Landing = ({id}) => {
 
           <div className="mt-12 grid grid-cols-2 gap-5 sm:grid-cols-6 lg:grid-cols-4">
   {[
-    { img: "https://res.cloudinary.com/dhpfskfem/image/upload/v1728540021/cooprtfolio/u1jnnys9kvdx9eqtgxg7.jpg", label: "Entrepreneur" },
+    { img: "https://res.cloudinary.com/dhpfskfem/image/upload/v1729133877/cooprtfolio/n29aehc9uzsppax69abd.jpg", label: "Entrepreneur" },
     { img: "https://res.cloudinary.com/dhpfskfem/image/upload/v1728060732/cooprtfolio/qqhdexuupdigjpjllmh6.jpg", label: "Advocate" },
     { img: "https://res.cloudinary.com/dhpfskfem/image/upload/v1727855082/cooprtfolio/mn4bwijl8xkzdrl92mxv.jpg", label: "Technology Enthusiast" },
     { img: "https://res.cloudinary.com/dhpfskfem/image/upload/v1728038884/cooprtfolio/kyww22ifncpoam3uppsc.jpg", label: "Fashion Innovator" },
