@@ -53,11 +53,12 @@ const Landing = ({id}) => {
 
           <div className="mt-12">
             <div className="flex items-center justify-between ml-14 ">
+              <a href="https://www.369startup.com/">
               <span className="bg-orange-200 text-orange-800 inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium">
                 <User className="mr-1 h-4 w-5" />
                 Chief Operating Officer
               </span>
-              
+              </a>
             </div>
           </div>
 

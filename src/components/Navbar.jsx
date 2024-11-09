@@ -19,7 +19,7 @@ const Navbar = ({id}) => {
           >
             <img
               className="h-16"
-              src="https://res.cloudinary.com/dhpfskfem/image/upload/v1728038830/cooprtfolio/f8xfz1y81nywwwqbcybl.png"
+              src="https://res.cloudinary.com/dhpfskfem/image/upload/v1731143805/cooprtfolio/zrf1etnlurfdlqlbyqk2.png"
               alt="Logo"
             />
           </a>
