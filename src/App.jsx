@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="max-w-fit bg-gray-50 mt-[-38px]">  
+      <div className="max-w-fit bg-slate-950 mt-[-38px]">  
     <Navbar id={"top"}/>
         <main className="max-w-screen mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <Landing id={"landing"}/>

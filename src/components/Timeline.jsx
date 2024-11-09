@@ -16,18 +16,18 @@ const TimelineItem = ({
     {/* Content box */}
     <div className={`w-full md:w-5/12 ${left ? "text-right" : ""}`}>
       <div
-        className={`bg-white p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-in-out ${
+        className={`bg-slate-900 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-500 ease-in-out ${
           left ? "mr-6" : "ml-6"
         }`}
       >
-        <h3 className="font-semibold text-2xl text-gray-900 mb-2">{title}</h3>
-        <p className="text-sm text-gray-500 mb-2">
+        <h3 className="font-semibold text-2xl text-gray-100 mb-2">{title}</h3>
+        <p className="text-sm text-gray-300 mb-2">
           {company} | {location}
         </p>
         <p className="text-sm text-white bg-blue-600 rounded px-3 py-1 inline-block mb-4">
           {period}
         </p>
-        <p className="text-sm text-gray-700 leading-relaxed">{description}</p>
+        <p className="text-sm text-gray-300 leading-relaxed">{description}</p>
       </div>
     </div>
 
@@ -44,7 +44,7 @@ const Timeline = ({ id }) => {
     <div id={id} className="container mx-auto py-10 px-4 sm:px-6 md:px-10">
       <div className="relative wrap overflow-hidden h-full">
         {/* Central vertical line */}
-        <div className="border-2 absolute border-gray-200 h-full top-0 left-1/2 transform -translate-x-1/2 hidden md:block"></div>
+        <div className="border-2 absolute border-gray-800 h-full top-0 left-1/2 transform -translate-x-1/2 hidden md:block"></div>
 
         {/* Timeline Items */}
         <TimelineItem

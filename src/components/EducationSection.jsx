@@ -84,7 +84,7 @@ const EducationSection = () => {
             >
               {/* Elegant line decoration */}
               <motion.div 
-                className="absolute -left-4 top-0 w-[1px] h-full bg-neutral-200 origin-top"
+                className="absolute -left-4 top-0 w-[1px] h-full bg-neutral-100 origin-top"
                 initial={{ scaleY: 0 }}
                 whileInView={{ scaleY: 1 }}
                 viewport={{ once: true }}
@@ -94,7 +94,7 @@ const EducationSection = () => {
               <div className="relative pl-8">
                 {/* Time period */}
                 <motion.div
-                  className="text-xl text-neutral-400 mb-2 tracking-wide"
+                  className="text-xl text-neutral-400 mb- tracking-wide"
                   variants={{
                     hover: { x: 8 }
                   }}

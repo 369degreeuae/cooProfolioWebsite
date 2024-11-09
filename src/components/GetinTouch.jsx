@@ -4,14 +4,14 @@ import MovetoTop from "./MovetoTop";
 const GetinTouch = ({ id }) => {
   return (
     <>
-      <section className="bg-blue-50" id={id}>
+      <section className="bg-gray-950" id={id}>
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
           <div className="mb-4">
             <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
               <p className="text-base font-semibold uppercase tracking-wide text-blue-600">
                 Contact
               </p>
-              <h2 className="font-heading mb-4 font-bold tracking-tight text-gray-900 ext-3xl sm:text-5xl">
+              <h2 className="font-heading mb-4 font-bold tracking-tight text-gray-100 ext-3xl sm:text-5xl">
                 Get in Touch
               </h2>
             </div>
@@ -19,7 +19,7 @@ const GetinTouch = ({ id }) => {
           <div className="flex items-stretch justify-center">
             <div className="grid md:grid-cols-2">
               <div className="h-full pr-6">
-                <p className="mt-3 mb-12 text-lg text-gray-600 ">
+                <p className="mt-3 mb-12 text-lg text-gray-300 ">
                   Have some big idea or brand to develop and need help? Then
                   reach out we'd love to hear about your project and provide
                   help.
@@ -44,13 +44,13 @@ const GetinTouch = ({ id }) => {
                       </svg>
                     </div>
                     <div className="ml-4 mb-4">
-                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900 ">
+                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-200 ">
                         Our Address
                       </h3>
-                      <p className="text-gray-600 ">
+                      <p className="text-gray-400 ">
                         Office no:19, 26th floor,Al moosa tower 2
                       </p>
-                      <p className="text-gray-600 ">Sheikh Zayed road ,Dubai</p>
+                      <p className="text-gray-400 ">Sheikh Zayed road ,Dubai</p>
                     </div>
                   </li>
                   <li className="flex">
@@ -73,14 +73,14 @@ const GetinTouch = ({ id }) => {
                       </svg>
                     </div>
                     <div className="ml-4 mb-4">
-                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">
+                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-200">
                         Contact
                       </h3>
-                      <p className="text-gray-600 ">
+                      <p className="text-gray-400 ">
                         Mobile: +91 79026 45369 |<br />{" "}
                         <p className="ml-12">+971 522824369 </p>
                       </p>
-                      <p className="text-gray-600 ">lakshmysanthoshmenon@gmail.com
+                      <p className="text-gray-400 ">lakshmysanthoshmenon@gmail.com
                       </p>
                     </div>
                   </li>
@@ -103,13 +103,13 @@ const GetinTouch = ({ id }) => {
                       </svg>
                     </div>
                     <div className="ml-4 mb-4">
-                      <h3 className="mb-2 text-lg font-medium leading-6 text-gray-900">
+                      <h3 className="mb-2 ml-16 text-lg font-medium leading-6 text-gray-200">
                         Availability
                       </h3>
-                      <p className="text-gray-600">
+                      <p className="text-gray-400">
                         Monday - Friday: 11:00 - 11:00
                       </p>
-                      <p className="text-gray-600">
+                      <p className="text-gray-400">
                         Saturday : 2:00 to 12:00 AM
                         <br /> Sunday: Not Available
                       </p>
@@ -134,7 +134,7 @@ const GetinTouch = ({ id }) => {
                           id="name"
                           autoComplete="given-name"
                           placeholder="Your name"
-                          className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md  sm:mb-0"
+                          className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md  sm:mb-0 bg-slate-900"
                           name="name"
                         />
                       </div>
@@ -148,7 +148,7 @@ const GetinTouch = ({ id }) => {
                           id="email"
                           autoComplete="email"
                           placeholder="Your email address"
-                          className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md  sm:mb-0"
+                          className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-slate-900 sm:mb-0"
                           name="email"
                         />
                       </div>
@@ -164,7 +164,7 @@ const GetinTouch = ({ id }) => {
                         cols={30}
                         rows={5}
                         placeholder="Write your message..."
-                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0"
+                        className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md bg-slate-900 sm:mb-0"
                         defaultValue={""}
                       />
                     </div>
@@ -181,7 +181,7 @@ const GetinTouch = ({ id }) => {
                 <div className="mt-12">
                   <h2 className="text-lg font-extrabold">Socials</h2>
                   <ul className="flex mt-3 space-x-4  md:items-center justify-center items-center">
-                  <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full  flex items-center justify-center shrink-0">
+                  <li className="bg-[#0e0e0ecf] h-10 w-10 rounded-full  flex items-center justify-center shrink-0">
                   <a href="mailto:lakshmysanthoshmenon@gmail.com">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -214,7 +214,7 @@ const GetinTouch = ({ id }) => {
                     </svg>
                     </a>
                     </li>
-                    <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full  flex items-center justify-center shrink-0">
+                    <li className="bg-[#0e0e0ecf] h-10 w-10 rounded-full  flex items-center justify-center shrink-0">
                       <a href="https://www.facebook.com/share/B429rBCaPSqVY2Nx/?mibextid=LQQJ4d">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -230,7 +230,7 @@ const GetinTouch = ({ id }) => {
                         </svg>
                       </a>
                     </li>
-                    <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <li className="bg-[#0e0e0ecf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                       <a href="https://www.linkedin.com/in/lakshmy-s-91b331230/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -246,7 +246,7 @@ const GetinTouch = ({ id }) => {
                         </svg>
                       </a>
                     </li>
-                    <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <li className="bg-[#0e0e0ecf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                       <a href="https://www.instagram.com/lakshmy_s_menon?igsh=Z2Mxenlkb3V0czJj&utm_source=qr">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -260,7 +260,7 @@ const GetinTouch = ({ id }) => {
                       </a>
                     </li>
 
-                    <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                    <li className="bg-[#0e0e0ecf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                       <a
                         href="https://wa.me/917902645369?text=Hello!"
                         target="_blank"
