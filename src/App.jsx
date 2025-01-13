@@ -18,8 +18,7 @@ function App() {
           <Timeline id="timeline" />
           <EducationSection/>
           <Services id="services" />
-          <GetinTouch id="getintouchcontact" />
-
+          <GetinTouch id="getintouchcontact" />        
         </main>
       </div>
     </>

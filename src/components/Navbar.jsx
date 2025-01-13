@@ -76,12 +76,22 @@ const Navbar = ({id}) => {
               </li>
               <li>
                 <a
+                  href="https://www.369startup.com/portfolio"
+                  className="block py-2 px-3 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-100 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  Portfolio
+                </a>
+              </li>
+              <li>
+                <a
                   href="#getintouchcontact"
                   className="block py-2 px-3 text-gray-100 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-100 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact me
                 </a>
               </li>
+
+              
             </ul>
           </div>
         </div>
